@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.app.dao.TestUserRepository
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.065 s <<< FAILURE! - in com.app.dao.TestUserRepository
+findUserByEmailtest  Time elapsed: 0.478 s  <<< ERROR!
+java.lang.RuntimeException: User Not Found!!
+	at com.app.dao.TestUserRepository.lambda$findUserByEmailtest$0(TestUserRepository.java:33)
+	at com.app.dao.TestUserRepository.findUserByEmailtest(TestUserRepository.java:33)
+
